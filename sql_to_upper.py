@@ -13,7 +13,6 @@ def gather_keywords():
 def exact_match(w, kw_list):
   for word in kw_list:
     if word == w:
-      print "w = {0} word = {1}".format(w, word)
       return True
   return False
 
